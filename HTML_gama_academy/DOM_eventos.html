@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <title>Página para Exercícios HTML | Gama Academy</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Texto descritivo da página web" />
+    <meta name="author" content="Gama Academy" />
+    
+</head>
+<body>
+    <!-- Cabeçalho -->
+    <header>
+
+    </header>
+    <!-- Fim do Cabeçalho-->
+
+    <!-- Conteúdo principal -->
+
+    <main role="main">
+
+        <!--O que são eventos?
+            Eventos são ações ou ocorrência que acontecem no sistmea que estamos
+            desenvolvendo, no qual este te alerta sobre essas ações para que você
+            possa responder de alguma forma, se desejado. Por exemplo, se o usuário
+            clica em um botão numa página web, você pode querer responder a esta ação
+            mostrando na tela uma caixa de informações.
+
+            Fonte: MDN Web Docs
+        -->
+
+        <p id="texto1">
+            Miracles when you move 
+            Such an easy thing for you to do
+            Your hand is moving right now
+            You are still showing up
+            At the tomb of every lazarus
+            Your voice is calling me out
+
+        </p>
+
+        <button id="botão1" onclick="atualizacao()">Atualização de Texto</button>
+
+        <script type="text/javascript">
+
+            function atualizacao() {
+                var texto1 = document.getElementById("texto1");
+
+                texto1.innerText = "Never Lost!";
+            }
+
+        </script>
+
+    </main>
+    <!-- Fim do Conteúdo principal-->
+
+    <!-- Rodapé -->
+    <footer>
+
+    
+    </footer>
+<body>
+    
+</body>
+</html>
